@@ -1,0 +1,91 @@
+.display-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Poppins;
+}
+.left-product-box {
+  position: relative;
+  display: flex;
+  flex-shrink: 1em;
+}
+.small-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+.small-images img {
+  width: 5em;
+  height: 5em;
+}
+#main-imge {
+  height: 23.6em;
+  margin: auto 2em;
+}
+.right-product-details {
+  flex-grow: 1;
+}
+.raings-prices {
+  margin: 1.3em auto;
+  text-align: sart;
+}
+#rating-Number {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 0.3em;
+}
+.prices {
+  margin: 1em auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+#old-price {
+  color: rgb(172, 158, 158);
+  text-decoration: line-through;
+  margin-right: 1.3em;
+}
+.description {
+  text-align: justify;
+  font-size: 20px;
+}
+#SelectSize {
+  font-size: 25px;
+  color: rgb(253, 59, 59);
+  margin: 0.7em auto;
+  font-weight: 500;
+}
+.size-range button {
+ 
+  margin: auto 1.4em auto auto;
+  width: 5em;
+  height: 2em;
+  background-color: rgb(204, 214, 224);
+  border: 1px solid lightgray;
+}
+.add-to-cart-buton button {
+  margin: 1em auto;
+  height: 3em;
+  width: 10em;
+  background: linear-gradient(60deg, pink, #ff5e5e);
+  border: 2px solid #ff5e5e;
+}
+.Description-box-nevigator {
+  height: 30vh;
+  width: 100%;
+  margin-top: 5%  ;
+  color: rgb(94, 61, 61);
+}
+.box-nevigator {
+  display: flex;
+}
+.Description {
+  color: black;
+  font-size: 20px;
+  border: 1px solid rgb(223, 205, 205);
+  padding: 0.3em;
+}
+.description-of-website{
+  text-align: center;
+  border: 1px solid rgb(223, 205, 205);
+  padding: 1.2em;
+}

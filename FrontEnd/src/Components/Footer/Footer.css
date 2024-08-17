@@ -1,0 +1,42 @@
+.footer{
+    height: 30vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+    padding:20px 0px ;
+    margin-bottom:50px ;
+    
+}
+.Shopper-logo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.contact-details ul{
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+   
+    margin-bottom: 2em;
+    gap :3em;
+}
+.contact-details ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1em;
+}
+.footer hr{
+    width: 50em;
+    margin-bottom: 1em;
+}

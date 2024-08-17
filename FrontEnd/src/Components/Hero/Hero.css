@@ -1,0 +1,46 @@
+.hero {
+    display: flex;
+    background: linear-gradient(180deg, #21f1e3, #efefef, #ffc4c4);
+   
+    height: 100vh;
+}
+
+.left-hero {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    /* padding-left: 180px; */
+}
+
+.button {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    border: none;
+    gap: 10px;
+    padding: auto;
+}
+
+.left-hero>h1 {
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.hand-icon {
+    width: 105px;
+}
+
+.right-hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
