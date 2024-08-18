@@ -1,0 +1,9 @@
+.Cart-items{
+    margin: 1.2em ;
+}
+.cartItems-main{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:0.1em
+}
