@@ -5,10 +5,10 @@ import { ShopContext } from '../Context/ShopContext';
 import dropDown_icon from '../Components/assets/dropdown_icon.png';
 
 const ShopCategory = (props) => {
-    const { all_products } = useContext(ShopContext);
-
+    const { all_product} = useContext(ShopContext);
+console.log(all_product)
     // Filter and map products based on category
-    const dataArray = all_products
+    const dataArray = all_product
         .filter(products => products.category === props.category)
         .map(dataItem => (
             <Items

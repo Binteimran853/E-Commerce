@@ -1,0 +1,36 @@
+.admin-sidebar{
+    /* height: 100vh; */
+ display: flex;
+ flex-direction: column;
+ background-color:white;
+ gap: 2em;
+ margin-top: 10px;
+ margin-right:auto ;
+ margin-left: 1em;
+
+ width: 100%;
+max-width: 250px;
+}
+.admin-sidebar-product{
+ 
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    gap: 1em;
+    height: 3em;
+   border: 2px solid rgb(240, 233, 233);
+   border-radius: 1em;
+    align-items: center;
+  
+    justify-content: space-around;
+    margin: 0px 1em;
+}
+.admin-sidebar-product:nth-child(1){
+    margin-top:1em;
+}
+@media screen and (max-width:800px) {
+    .admin-sidebar{
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+}

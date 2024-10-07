@@ -1,0 +1,9 @@
+.Admin-narbar{
+    /* width: 100vw;/ */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 9px  black;
+   background-color: white;
+}
+

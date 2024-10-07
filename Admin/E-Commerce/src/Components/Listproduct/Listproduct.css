@@ -1,0 +1,28 @@
+.admin-list-product{
+    width: 100%;
+    max-width: 75%;
+    margin-top: 1em;
+    margin-right: 20%;
+    margin-left: 1.3em;
+    padding: 3%;
+    gap: 5px;
+background-color: white;
+display: flex;
+flex-direction: column;
+height: auto;
+overflow-y: scroll;
+
+}
+.admin-product-list-main{
+    display:grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr  1fr 1fr 1fr;
+height: auto;
+    
+}
+.admin-product-list-main p{
+    text-align: center;
+}
+.admin-productList-image{
+    width: 3rem;
+}
